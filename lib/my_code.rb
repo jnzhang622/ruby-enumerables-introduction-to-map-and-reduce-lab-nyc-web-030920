@@ -42,3 +42,5 @@ def reduce_to_total(array, start = 0)
   end
   return result
 end
+
+def reduce_to_all_true()
