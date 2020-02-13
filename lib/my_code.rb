@@ -43,6 +43,8 @@ def reduce_to_total(array, start = 0)
   return result
 end
 
-def reduce_to_all_true()
+def reduce_to_all_true(array)
   
 end
+
+def reduce_to_any_true()
