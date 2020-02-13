@@ -37,7 +37,7 @@ def reduce_to_total(array)
   result = 0
   index = 0
   while index < array.size do
-    result += array[index] ** 2
+    result += array[index]
     index += 1
   end
   return result
