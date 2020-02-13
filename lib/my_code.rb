@@ -32,3 +32,13 @@ def map_to_square(array)
   end
   return result
 end
+
+def reduce_to_total(array)
+  result = []
+  index = 0
+  while index < array.size do
+    result << array[index] ** 2
+    index += 1
+  end
+  return result
+end
